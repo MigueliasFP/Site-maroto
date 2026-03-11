@@ -1,0 +1,64 @@
+@keyframes color-change {
+  0%   { color: red}
+  50%  { color: orange}
+  100% { color: yellow}
+}
+@keyframes batata-frita {
+    0%   { color: red}
+    20%  { color: orange}
+    40% { color: yellow}
+    60%   { color: green}
+    80%  { color: blue}
+    100% {color:purple}
+
+
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-size: 11px; /* O tamanho da fonte principal<p></p> tag  */
+    background-color: rgba(32, 187, 239, 0.77); /* A cor do plano de fundo da página */
+    color: #ffffff; /* A cor do texto */ 
+}
+h1a{
+    color: #ffffff; /* A cor do cabeçalho */
+    font-size: 24px; /* A cor da fonte do cabeçalho */
+    font-family: Georgia, serif; /* A font usada no cabeçalho*/
+    animation: color-change 5s infinite;
+}
+}
+
+a {
+    color: #D6FF6B;
+    font-size: 100px;
+    font-family:cursive;
+    font-style:oblique;
+
+}
+
+h3 {
+    color:blue;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px dashed rgb(0, 255, 255);
+}
+
+ h1:hover { 
+    animation: color-change 3s infinite; 
+}
+
+ a:hover {
+    animation: color-change 3s infinite;
+}
+
+.nngyu {
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.nggyu:hover {
+
+    animation: batata-frita 5s infinite;
+
+}
